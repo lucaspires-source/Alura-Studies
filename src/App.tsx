@@ -1,9 +1,13 @@
+import Form from "./components/Form";
+import List from "./components/List";
+
 
 
 function App() {
   return (
     <div>
-      Hello World
+      <Form />
+      <List />
     </div>
   );
 }
