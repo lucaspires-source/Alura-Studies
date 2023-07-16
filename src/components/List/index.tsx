@@ -1,3 +1,4 @@
+import './style.scss'
 function List() {
   const tasks = [
     {
@@ -18,11 +19,11 @@ function List() {
   ];
 
   return (
-    <aside>
+    <aside className='listaTarefas'>
       <h2> Daily Subjects of Study </h2>
       <ul>
         {tasks.map(({ id, task, time }) => (
-          <li key={id}>
+          <li key={id} className='item'>
             <h3>{task}</h3>
             <span>{time}</span>
           </li>

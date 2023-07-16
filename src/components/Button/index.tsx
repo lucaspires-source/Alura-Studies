@@ -1,6 +1,8 @@
+import './style.scss'
+
 function Button() {
   return (
-    <button>Button</button>
+    <button className='botao' >Button</button>
   )
 }
 

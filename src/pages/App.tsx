@@ -1,6 +1,6 @@
-import Form from "./components/Form";
-import List from "./components/List";
-
+import Form from "../components/Form";
+import List from "../components/List";
+import './style.scss'
 
 
 function App() {

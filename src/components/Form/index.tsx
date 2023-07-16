@@ -1,10 +1,10 @@
 import React from "react";
 import Button from "../Button";
-
+import './style.scss'
 function Form() {
   return (
-    <form>
-      <div>
+    <form className="novaTarefa">
+      <div className="inputContainer">
         <label htmlFor="task">Add a new subject</label>
         <input
           type="text"
